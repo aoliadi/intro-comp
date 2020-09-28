@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="intro.js"></script>
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <style>
+      
+  </style>
+</head>
+<body>
+<div class="flex-wrapper">
+    <main>
+        <h1>Learn to code by watching others</h1>
+        <p>
+            See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. 
+        </p>
+    </main>
+<div class="discount-form">
+    <div class="discount">
+        <span>Try it free 7 days</span> then $20/mo. thereafter
+    </div>
+    <form id="form-js">
+    <div class="form-input">
+        <input type="text" name="firstName" placeholder="First Name" id="firstName-js">
+            <img src="images/icon-error.svg" alt="error icon" class="error-icon hide" >
+            <p class="error-mssg hide">error message</p>
+    </div> <!--form-input-->
+    <div class="form-input">
+        <input type="text" name="lastName" placeholder="Last Name" id="lastName-js">
+            <img src="images/icon-error.svg" alt="error icon" class="error-icon hide">
+            <p class="error-mssg hide">error message</p>
+    </div> <!--form-input-->
+    <div class="form-input">
+        <input type="email" name="email" placeholder="Email Address" id="email-js">
+            <img src="images/icon-error.svg" alt="error icon" class="error-icon hide">
+            <p class="error-mssg hide">error message</p>
+    </div> <!--form-input-->
+    <div class="form-input">
+        <input type="password" name="password" placeholder="Password" id="password-js">
+            <img src="images/icon-error.svg" alt="error icon" class="error-icon hide">
+            <p class="error-mssg hide">error message</p>
+    </div> <!--form-input-->
+        <button class="submit-button">Claim your free trial</button>
+        <p class="terms-and-services">By clicking the button, you are agreeing to our <a href="#" target="_blank"><span>Terms and Services</span></a></p>
+    </form>
+</div> <!--discount-form-->
+</div> <!--flex-wrapper-->
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://twitter.com/aoliadi/" target="_blank">aoliadi</a>.
+    </p>
+  </footer>
+</body>
+</html>
